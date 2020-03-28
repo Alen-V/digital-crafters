@@ -1,0 +1,363 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.myDiv {
+    margin: auto;
+    text-align: center;
+    height: 6505px;
+    width: auto;
+}
+
+.navHead {
+    background-image: linear-gradient(#00d4ff, #0d2c7a);
+    color: white;
+    margin: auto;
+    min-height: 1011px;
+    max-height: 100%;
+    font-weight: 700;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+p, .myButn, .thrdSecContainer h2, .frthSection aside h2 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+.myList { 
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 508px;
+    text-transform: uppercase;
+    padding-left: 0;
+    margin: auto 0;
+}
+
+.myNav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1854px;
+    width: 85%;
+    margin: auto;
+    padding-top: 2em;
+}
+
+@media screen and (max-width: 1440px) {
+    /* need to make responsive button */
+}
+
+.myBtn {
+    border: 3px solid white;
+    border-radius: 3em;
+    width: 205px;
+    height: 54px;
+    display: flex;
+    margin-right: 25px;
+}
+
+.insideBtn {
+    border: none;
+    background-color: transparent;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.logo {
+    height: 22px;
+    position: relative;
+    top: -2.5em;
+}
+
+.headPosition {
+    padding: 8.81em;
+}
+
+.sndSection h2 {
+    font-size: 42px;
+}
+
+.insideSectionHead {
+    width: 60%;
+    margin: 8em auto 0;
+}
+
+.insideSectionHead .textOpacity {
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: auto;
+}
+
+.insideSectionHead p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.headSectionParagraph {
+    font-size: 72px !important;
+    font-weight: 700 !important;
+    margin-bottom: 0;
+}
+
+.sndSection {
+    height: 2100px;
+}
+
+.controlSize {
+    width: 85%;
+    margin: auto;
+    margin-top: 0.5em;
+}
+
+.myButn {
+    color: white;
+    height: 105px; 
+    width: 526px;
+    background-color: #41BFE7;
+    border-radius: 4em;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
+    margin-top: 3em;
+    margin-bottom: 6em;
+    margin: 3em 0 6em;
+}
+
+.sndSection h4{
+    color: #40bee6;
+}
+
+
+.sndSection .myButn {
+    box-shadow: none;
+    margin: 3em 0 9em;
+}
+
+.sndSecFirstArticle {
+    /* need media query when it's smaller on the width */
+    width: 46%; 
+    margin: auto;
+    text-align: left;
+}
+
+.sndSecFirstArticle p, .sndSecSecondArticle p, .sndSecThirdArticle p {
+    font-size: 17px !important;
+}
+
+.imageLaptop {
+    margin: 1.2rem 0 0;
+}
+
+.sndSecSecondArticle {
+    width: 55%;
+    margin: auto;
+    text-align: left;
+}
+
+.sndSecThirdArticle {
+    margin: auto;
+    padding: 6rem 0rem 4rem;
+    box-shadow: 0 0 100px 15px #0B9ED4;
+    min-height: 385px;
+    max-width: 1122px;
+    width: 58.5%;
+}
+
+.thrdSection {
+    background-image: linear-gradient( to left, #0B9ED4, #0F2C7A);
+    color: white;
+    min-height: 1327px;
+}
+
+.thrdSection .container {
+    color: black;
+}
+
+.aboveBox {
+    width: 50%;
+    margin: auto;
+}
+
+hr {
+    width: 70px;
+    height: 4px;
+    background-color: #e6e7e9;
+    border: none;
+    margin: 3em auto !important;
+}
+
+.bottomLine {
+    background-image: linear-gradient( #00d4ff, #0d2c7a);
+    color: white;
+    height: 1098.45px;
+}
+
+.sliderDot {
+    height: 0.4rem;
+    width: 0.4rem;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0.3rem;
+    opacity: 0.3;
+    margin: 0.8rem 0.3rem;
+}
+
+.sliderBtn {
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+
+.active {
+    opacity: 1;
+}
+
+.arrowsAndDots {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.arrowsAndDots span {
+    font-size: 3rem;
+    position: relative;
+    top: -27px;
+}
+
+.boxBorder {
+    background-color: white;
+    max-width: 370px;
+    min-height: 332px;
+    margin: 0 1.18em;
+    text-align: left;
+    padding-left: 2.5em !important;
+    min-width: 20%;
+    border-radius: 5px;
+}
+
+.box1 {
+    margin-left: 10%;
+}
+
+.box2 {
+    margin-left: 23.5%;
+}
+
+.boxBorder h2 {
+    font-size: 24px;
+    margin: 3em 0 1em;
+}
+
+.boxBorder p {
+    font-size: 17px;
+    margin-bottom: 2em;
+}
+
+.btStrapWidth {
+    max-width: 6.3% !important;
+}
+/* 
+.frthSection {
+    height: 1041px;
+} */
+
+.marginBox {
+    margin: 9rem 0 6rem;
+}
+
+.frthSectionBox {
+    min-width: 70%;
+    min-height: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4em;
+    display: flex;
+    margin: 3em 0;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.leftAside {
+    height: 100%;
+    width: 50%;
+}
+
+.rightAside {
+    height: 100%;
+    width: 50%;
+    padding-left: 2.7em;
+}
+
+.rightAside p {
+    font-size: 17px;
+}
+
+.rightAside footer {
+    margin: 2.7em 0 0;
+}
+
+.rightAside h2 {
+    margin: 2.2em 0;
+}
+
+.circle {
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    background-color: #00d4ff;
+}
+
+.portfolioBtn {
+    border-radius: 3em;
+    background: white;
+    border: 2.2px solid rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1290px) {
+    .sndSection {
+        margin-bottom: 7.5em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .section-md-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxBorder {
+        max-width: 320px !important;
+        margin-bottom: 2em;
+    }
+    .marginBox {
+        margin-bottom: 0;
+    }
+    .sndSection {
+        margin-bottom: 9em;
+    }
+    .frthSectionBox {
+        margin-bottom: 6em;
+    }
+    .box1 , .box2 {
+        margin: 2em auto ;
+    }
+    .box3 {
+        margin-bottom: 0;
+    }
+}
