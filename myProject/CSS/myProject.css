@@ -52,8 +52,22 @@ h2 {
     padding-top: 2em;
 }
 
-@media screen and (max-width: 1440px) {
-    /* need to make responsive button */
+.collapseBtn {
+    display: none;
+}
+
+.navBtn {
+    color: white !important;
+    border-color: rgba(255,255,255,.4) !important;
+}
+
+@media screen and (max-width: 1360px) {
+    .collapseBtn {
+        display: block;
+    }
+    .myList{
+        display: none;
+    }
 }
 
 .myBtn {
@@ -83,6 +97,10 @@ h2 {
 
 .headPosition {
     padding: 8.81em;
+}
+
+.thrdSection .headPosition {
+    padding: 8.81em 0;
 }
 
 .sndSection h2 {
@@ -171,10 +189,18 @@ h2 {
 .sndSecThirdArticle {
     margin: auto;
     padding: 6rem 0rem 4rem;
-    box-shadow: 0 0 100px 15px #0B9ED4;
+    box-shadow: 0 0 100px 15px rgb(94, 94, 93);
     min-height: 385px;
     max-width: 1122px;
     width: 58.5%;
+}
+
+.sndSecThirdArticle footer {
+    margin: 3.6em 0 0;
+    font-weight: 700;
+}
+.sndSecThirdArticle footer p span {
+    color: #0B9ED4;
 }
 
 .thrdSection {
@@ -185,6 +211,7 @@ h2 {
 
 .thrdSection .container {
     color: black;
+    padding: 0;
 }
 
 .aboveBox {
@@ -194,16 +221,17 @@ h2 {
 
 hr {
     width: 70px;
-    height: 4px;
+    height: 4px !important;
     background-color: #e6e7e9;
     border: none;
-    margin: 3em auto !important;
+    margin: 2.25em auto !important;
+    border-top: 1px solid #e6e7e9 !important;
 }
 
 .bottomLine {
     background-image: linear-gradient( #00d4ff, #0d2c7a);
     color: white;
-    height: 1098.45px;
+    padding: 6.5em 0 0;
 }
 
 .sliderDot {
@@ -247,8 +275,18 @@ hr {
     margin: 0 1.18em;
     text-align: left;
     padding-left: 2.5em !important;
-    min-width: 20%;
+    min-width: 25%;
     border-radius: 5px;
+}
+
+.boxBorder .circle {
+    height: 109px;
+    width: 109px;
+    background-color: #00d4ff;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    top: -54.5px;
 }
 
 .box1 {
@@ -261,7 +299,7 @@ hr {
 
 .boxBorder h2 {
     font-size: 24px;
-    margin: 3em 0 1em;
+    margin: 0 0 1em;
 }
 
 .boxBorder p {
@@ -272,10 +310,10 @@ hr {
 .btStrapWidth {
     max-width: 6.3% !important;
 }
-/* 
+
 .frthSection {
-    height: 1041px;
-} */
+    height: fit-content;
+}
 
 .marginBox {
     margin: 9rem 0 6rem;
@@ -327,6 +365,79 @@ hr {
     border-radius: 3em;
     background: white;
     border: 2.2px solid rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+
+}
+
+.bottomLine h2 {
+    width: 43%;
+    margin: auto;
+    font-size: 42px;
+}
+
+.bottomLine hr {
+    color: white;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    color: white;
+}
+
+.bottomBox {
+    display: flow-root;
+    width: 36%;
+    margin: auto;
+    font-size: 17px;
+    text-align: left;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.bottomInput {
+    margin-bottom: 14px;
+    padding: 1em;
+    height: 64px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255, 0.3);
+}
+
+.lastInput {
+    height: 220px;
+} 
+/* need to make code for breaking the line on the last input */
+
+.lastInput .input {
+    width: 100%;
+}
+
+.bottomBtn {
+    margin: 2em auto 7em;
+    box-shadow: none;
+}
+
+.bottomFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid rgba(255,255,255, 0.5);
+    padding: 1.5em 6em;
+}
+
+.bottomFooter ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.bottomFooter ul li {
+    margin: 1em;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 1290px) {
@@ -343,7 +454,7 @@ hr {
     }
     .boxBorder {
         max-width: 320px !important;
-        margin-bottom: 2em;
+        margin-bottom: 4em;
     }
     .marginBox {
         margin-bottom: 0;
@@ -355,7 +466,7 @@ hr {
         margin-bottom: 6em;
     }
     .box1 , .box2 {
-        margin: 2em auto ;
+        margin: 4em auto ;
     }
     .box3 {
         margin-bottom: 0;

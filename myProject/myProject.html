@@ -10,6 +10,34 @@
     <div class="myDiv">
     <header class="navHead">
         <nav class="myNav">
+            <div class="pos-f-t collapseBtn">
+                <div id="navbarHiddenContent" class="collapse" id="navbarToggleExternalContent">
+                  <div class="bg-dark p-4">
+                    <ul>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="#">Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+                <nav class="navbar navbar-dark">
+                  <button id="navbarBtn" class="navbar-toggler navBtn" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </nav>
+              </div>
             <ul class="myList">
                 <li>
                     <a href="#">About</a>
@@ -67,7 +95,7 @@
         <article class="sndSecThirdArticle">
             <p>We have worked with Digital Crafters for several years across a range of projects.<br> They have built the critical elements of our system and have always <br> delivered a strong return on investment. Moreover, they are a pleasure to work <br> with - always enthusiastic, professional and with a positive culture. I would, and <br> have, recommended them to others in need of flexible development capacity.</p>
             <footer>
-                <span>Todd Quinto</span><span> - CEO ar Endave Software</span> 
+                <p><span>Todd Quinto</span> - CEO ar Endave Software</p>
             </footer>
         </article>
 
@@ -92,24 +120,34 @@
         <article class="container">
             <section class="row marginBox section-md-column">
                 <article class="col-md-3 boxBorder box1">
+                <div class="circle"></div>
+
                     <h2><b>Copywriting <br> Material</b></h2>
                     <p>Or worse, you've heard horror stories about programmers, web designers and writers who sprint out of the starting blocks.</p>
                 </article>
                 <article class="col-md-3 boxBorder">
+                <div class="circle"></div>
+
                     <h2><b>Landing Page <br> Design</b></h2>
                     <p>Or worse, you've heard horror stories about programmers, web designers and writers who sprint out of the starting blocks.</p>
                 </article>
                 <article class="col-md-3 boxBorder box3">
+                <div class="circle"></div>
+
                     <h2><b>Full Marketing <br> Design</b></h2>
                     <p>Or worse, you've heard horror stories about programmers, web designers and writers who sprint out of the starting blocks.</p>
                 </article>
             </section>
             <section class="row section-md-column">
                 <article class="col-md-3 boxBorder box2">
+                <div class="circle"></div>
+
                     <h2><b>Website <br> Development</b></h2>
                     <p>Or worse, you've heard horror stories about programmers, web designers and writers who sprint out of the starting blocks.</p>
                 </article>
                 <article class="col-md-3 boxBorder">
+                <div class="circle"></div>
+
                     <h2><b>Marketing <br> Materials</b></h2>
                     <p>Or worse, you've heard horror stories about programmers, web designers and writers who sprint out of the starting blocks.</p>
                 </article>
@@ -141,13 +179,18 @@
         <h2 class="">Contact us today to learn how we increase  your revenue.</h2>
         <hr>
         <article class="bottomBox">
-            <form action="#" class="bottomForm">
-                <input type="text" placeholder="Your Name" class="bottomInput">
-                <input type="text" placeholder="Email" class="bottomInput">
-                <input type="text" placeholder="How we can help you?" class="bottomInput">
-                <input class="myButn" type="button" value="Claim your free consulation">
-            </form>
+            <div class="bottomInput">
+                <input type="text" placeholder="Your Name" class="input">
+            </div>
+            <div class="bottomInput">
+                <input type="text" placeholder="Email" class="input">
+            </div>
+            <div class="bottomInput lastInput">
+                <input type="textarea" placeholder="How we can help you?" class="input">
+            </div>
+                
         </article>
+        <input class="myButn bottomBtn" type="button" value="Claim your free consulation">
         <footer class="bottomFooter">
             <img src="./Images/logo.png" alt="Digital=Crafters-Logo">
             <div class="logoContainer">
@@ -166,6 +209,7 @@
             </ul>
         </footer>
     </article>
+    
     </div>
     <script src="./JS/myProject.js"></script>
 </body>
