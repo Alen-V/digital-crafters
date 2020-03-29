@@ -96,10 +96,6 @@ h2 {
 }
 
 .headPosition {
-    padding: 8.81em;
-}
-
-.thrdSection .headPosition {
     padding: 8.81em 0;
 }
 
@@ -133,6 +129,14 @@ h2 {
 
 .sndSection {
     height: fit-content;
+    background: #ffffff;
+background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 23%, #ffffff 55%, #f6fafd 55%, #f0f5fb 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffffff), color-stop(23%, #ffffff), color-stop(55%, #ffffff), color-stop(55%, #f6fafd), color-stop(100%, #f0f5fb));
+background: -webkit-linear-gradient(-45deg, #ffffff 0%, #ffffff 23%, #ffffff 55%, #f6fafd 55%, #f0f5fb 100%);
+background: -o-linear-gradient(-45deg, #ffffff 0%, #ffffff 23%, #ffffff 55%, #f6fafd 55%, #f0f5fb 100%);
+background: -ms-linear-gradient(-45deg, #ffffff 0%, #ffffff 23%, #ffffff 55%, #f6fafd 55%, #f0f5fb 100%);
+background: linear-gradient(135deg, #ffffff 0%, #ffffff 23%, #ffffff 55%, #f6fafd 55%, #f0f5fb 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f0f5fb', GradientType=1 );
 }
 
 .controlSize {
@@ -185,10 +189,10 @@ h2 {
 .sndSecThirdArticle {
     margin: auto;
     padding: 6rem 3rem 4rem;
-    box-shadow: 0 0 100px 15px rgb(94, 94, 93);
     min-height: 385px;
     max-width: 825px;
     width: 58.5%;
+    background-color: white;
 }
 
 .sndSecThirdArticle footer {
@@ -263,7 +267,15 @@ hr {
 .arrowsAndDots span {
     font-size: 3rem;
     position: relative;
-    top: -27px;
+    top: -24.3px;
+}
+
+.firstBtn span {
+    left: -1.5px;
+}
+
+.secondBtn span {
+    left:  1.5px;
 }
 
 .boxBorder {
@@ -311,6 +323,15 @@ hr {
 
 .frthSection {
     height: fit-content;
+    padding: 8.81em;
+    background: #f0f5fa;
+background: -moz-linear-gradient(45deg, #f0f5fa 0%, #f5f8fd 36%, #ffffff 36%, #ffffff 85%, #ffffff 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, #f0f5fa), color-stop(36%, #f5f8fd), color-stop(36%, #ffffff), color-stop(85%, #ffffff), color-stop(100%, #ffffff));
+background: -webkit-linear-gradient(45deg, #f0f5fa 0%, #f5f8fd 36%, #ffffff 36%, #ffffff 85%, #ffffff 100%);
+background: -o-linear-gradient(45deg, #f0f5fa 0%, #f5f8fd 36%, #ffffff 36%, #ffffff 85%, #ffffff 100%);
+background: -ms-linear-gradient(45deg, #f0f5fa 0%, #f5f8fd 36%, #ffffff 36%, #ffffff 85%, #ffffff 100%);
+background: linear-gradient(45deg, #f0f5fa 0%, #f5f8fd 36%, #ffffff 36%, #ffffff 85%, #ffffff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f5fa', endColorstr='#ffffff', GradientType=1 );
 }
 
 .marginBox {
@@ -320,12 +341,12 @@ hr {
 .frthSectionBox {
     max-width: 1170px;
     min-height: 50%;
-    border: 1px solid black;
-    padding: 4em;
     display: flex;
     margin: 3em auto;
     text-align: left;
     border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 10px 20px 10px rgba(0,0,0,.2);
 }
 
 .leftAside {
@@ -334,9 +355,9 @@ hr {
 }
 
 .rightAside {
-    height: 100%;
+    border-left: 1px solid rgba(0,0,0,.2);
     width: 50%;
-    padding-left: 2.7em;
+    padding: 4em 3em;
 }
 
 .rightAside p {
