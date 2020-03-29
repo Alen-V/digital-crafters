@@ -35,23 +35,31 @@ h2 {
 }
 
 .hiddenNav {
-    text-align: center;
+    height: 100%;
+    width: 0;
     position: absolute;
-    height: 1136px;
-    width: 100%;
-    left: 0;
-    top: 0;
     z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.transitionNav {
+    transition: all 2s linear;
 }
 
 .hiddenNav ul li {
     list-style-type: none;
     margin: 3em;
-
 }
 
 .hiddenNav ul li a {
     font-size: 42px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
 
 .myList { 
@@ -102,6 +110,9 @@ h2 {
     }
     .myList{
         display: none;
+    }
+    .hiddenNav {
+        height: 1138px;
     }
 }
 
