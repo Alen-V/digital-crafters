@@ -387,7 +387,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f5fa', end
     background: white;
     border: 2.2px solid rgba(0, 0, 0, 0.2);
     font-weight: 700;
-
+    opacity: 0.8;
 }
 
 .bottomLine h2 {
