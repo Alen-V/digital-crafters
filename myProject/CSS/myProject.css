@@ -246,11 +246,12 @@ hr {
 }
 
 .sliderBtn {
-    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
     margin: 0 1rem;
+    background-color: white;
 }
 
 .active {
@@ -268,6 +269,8 @@ hr {
     font-size: 3rem;
     position: relative;
     top: -24.3px;
+    opacity: 0.5;
+
 }
 
 .firstBtn span {
