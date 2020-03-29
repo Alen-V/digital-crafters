@@ -127,14 +127,16 @@ h2 {
 .headSectionParagraph {
     font-size: 72px !important;
     font-weight: 700 !important;
-    margin-bottom: 0;
+    max-width: 1019px;
+    margin: 0 auto;
 }
 
 .sndSection {
-    height: 2100px;
+    height: fit-content;
 }
 
 .controlSize {
+    max-width: 867px;
     width: 85%;
     margin: auto;
     margin-top: 0.5em;
@@ -162,12 +164,12 @@ h2 {
 
 .sndSection .myButn {
     box-shadow: none;
-    margin: 3em 0 9em;
+    margin: 3em 0 7.5em;
 }
 
 .sndSecFirstArticle {
-    /* need media query when it's smaller on the width */
-    width: 46%; 
+    max-width: 710px;
+    width: 50%; 
     margin: auto;
     text-align: left;
 }
@@ -180,18 +182,12 @@ h2 {
     margin: 1.2rem 0 0;
 }
 
-.sndSecSecondArticle {
-    width: 55%;
-    margin: auto;
-    text-align: left;
-}
-
 .sndSecThirdArticle {
     margin: auto;
-    padding: 6rem 0rem 4rem;
+    padding: 6rem 3rem 4rem;
     box-shadow: 0 0 100px 15px rgb(94, 94, 93);
     min-height: 385px;
-    max-width: 1122px;
+    max-width: 825px;
     width: 58.5%;
 }
 
@@ -215,6 +211,7 @@ h2 {
 }
 
 .aboveBox {
+    max-width: 710px;
     width: 50%;
     margin: auto;
 }
@@ -259,7 +256,8 @@ hr {
 .arrowsAndDots {
     display: flex;
     justify-content: center;
-    margin: 3rem;
+    margin: 3rem 0 0;
+    cursor: pointer;
 }
 
 .arrowsAndDots span {
@@ -320,13 +318,12 @@ hr {
 }
 
 .frthSectionBox {
-    min-width: 70%;
+    max-width: 1170px;
     min-height: 50%;
     border: 1px solid black;
-    border-radius: 5px;
     padding: 4em;
     display: flex;
-    margin: 3em 0;
+    margin: 3em auto;
     text-align: left;
     border-radius: 5px;
 }
@@ -370,6 +367,7 @@ hr {
 }
 
 .bottomLine h2 {
+    max-width: 730px;
     width: 43%;
     margin: auto;
     font-size: 42px;
@@ -387,6 +385,7 @@ hr {
 }
 
 .bottomBox {
+    max-width: 612px;;
     display: flow-root;
     width: 36%;
     margin: auto;
@@ -422,11 +421,16 @@ hr {
 }
 
 .bottomFooter {
+    border-top: 2px solid rgba(255,255,255, 0.5);
+    padding: 1.5em 6em 1.5em 7em;
+}
+
+.footerBox {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 2px solid rgba(255,255,255, 0.5);
-    padding: 1.5em 6em;
+    max-width: 1854px;
+    margin: auto;
 }
 
 .bottomFooter ul {
@@ -440,12 +444,6 @@ hr {
     font-weight: 700;
 }
 
-@media screen and (max-width: 1290px) {
-    .sndSection {
-        margin-bottom: 7.5em;
-    }
-}
-
 @media screen and (max-width: 992px) {
     .section-md-column {
         display: flex;
@@ -457,10 +455,7 @@ hr {
         margin-bottom: 4em;
     }
     .marginBox {
-        margin-bottom: 0;
-    }
-    .sndSection {
-        margin-bottom: 9em;
+        margin: 6rem 0 0rem;
     }
     .frthSectionBox {
         margin-bottom: 6em;
