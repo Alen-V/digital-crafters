@@ -23,6 +23,7 @@ ul li a {
     text-decoration: none;
     color: white;
     font-size: 14px;
+
 }
 
 p, .myButn, .thrdSecContainer h2, .frthSection aside h2 {
@@ -30,6 +31,26 @@ p, .myButn, .thrdSecContainer h2, .frthSection aside h2 {
 }
 
 h2 {
+    font-size: 42px;
+}
+
+.hiddenNav {
+    text-align: center;
+    position: absolute;
+    height: 1136px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.hiddenNav ul li {
+    list-style-type: none;
+    margin: 3em;
+
+}
+
+.hiddenNav ul li a {
     font-size: 42px;
 }
 
@@ -56,6 +77,20 @@ h2 {
     display: none;
 }
 
+.escapeCollapse {
+    float: left;
+}
+
+.collapseEscapeBtn {
+    font-size: 42px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    position: absolute;
+    left: 2.6em;
+    top: 0.7em;
+}
+
 .navBtn {
     color: white !important;
     border-color: rgba(255,255,255,.4) !important;
@@ -67,6 +102,12 @@ h2 {
     }
     .myList{
         display: none;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .hiddenNav {
+        height: 1172px;
     }
 }
 
@@ -489,5 +530,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f5fa', end
     }
     .box3 {
         margin-bottom: 0;
+    }
+    .hiddenNav {
+        height: 1201px;
     }
 }
