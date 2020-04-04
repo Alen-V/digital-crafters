@@ -52,8 +52,14 @@ $(`.owl-carousel .owl-dot`).owlCarousel({
 
 let previousBtn = document.getElementsByClassName(`owl-prev`)[0]
 let nextBtn = document.getElementsByClassName(`owl-next`)[0]
-previousBtn.innerHTML = `&#x2BC6`
-nextBtn.innerHTML = `&#x2BC5`
+previousBtn.innerHTML = `<div class="sliderButton">
+    &#x2BC6 
+</div>
+`
+nextBtn.innerHTML = `<div class="sliderButton">
+    &#x2BC5 
+</div>
+`
 
 $(document).ready(function(){
     //Check to see if the window is top if not then display button
