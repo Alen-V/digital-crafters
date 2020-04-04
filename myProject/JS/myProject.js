@@ -42,8 +42,8 @@ $('.owl-carousel').owlCarousel({
             loop:true
         }
     }
-    
 })
+
 
 $(`.owl-carousel .owl-dot`).owlCarousel({
     autoHeight:true,
@@ -76,7 +76,6 @@ $(document).ready(function(){
         return false;
     });
 });
-
 
 // button color change
 
