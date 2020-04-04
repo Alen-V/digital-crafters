@@ -212,8 +212,8 @@ background: conic-gradient(from 0.19turn at 50% 68%, #f6fafd, 250deg, white, 360
 }
 
 .controlSize {
-    max-width: 867px;
-    width: 85%;
+    max-width: 940px;
+    width: 95%;
     margin: auto;
     margin-top: 0.5em;
 }
@@ -231,7 +231,7 @@ background: conic-gradient(from 0.19turn at 50% 68%, #f6fafd, 250deg, white, 360
     text-transform: uppercase;
     font-weight: 700;
     box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
-    margin: 3em auto 6em;
+    margin: 4em auto 6em;
 }
 
 .sndSection h4{
@@ -293,8 +293,8 @@ background: conic-gradient(from 0.19turn at 50% 68%, #f6fafd, 250deg, white, 360
 }
 
 .aboveBox {
-    max-width: 710px;
-    width: 50%;
+    max-width: 775px;
+    width: 55%;
     margin: auto;
 }
 
@@ -577,10 +577,22 @@ hr {
     font-size: 26px;
     position: relative;
     top: 3em;
+    max-width: 250px;
+    margin: auto;
+
 }
 
 .margin-logo {
     margin: 0.3em;
+}
+
+.margin-logo:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.footerBox ul li:hover {
+    transform: scale(1.2);
 }
 
 .thunder-logo {
