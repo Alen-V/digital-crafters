@@ -53,11 +53,11 @@ $(`.owl-carousel .owl-dot`).owlCarousel({
 let previousBtn = document.getElementsByClassName(`owl-prev`)[0]
 let nextBtn = document.getElementsByClassName(`owl-next`)[0]
 previousBtn.innerHTML = `<div class="sliderButton">
-    &#x2BC6 
+    <i class="fas fa-angle-left"></i>
 </div>
 `
 nextBtn.innerHTML = `<div class="sliderButton">
-    &#x2BC5 
+    <i class="fas fa-angle-right"></i>
 </div>
 `
 

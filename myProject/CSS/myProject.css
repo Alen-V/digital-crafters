@@ -58,6 +58,10 @@ h2 {
     transition: 0.2s;
 }
 
+.hiddenNav ul li a:hover {
+    color: white;
+}
+
 .myList { 
     list-style-type: none;
     display: inline-flex;
@@ -86,18 +90,38 @@ h2 {
 }
 
 .collapseEscapeBtn {
-    font-size: 42px;
+    font-size: 32px;
     background-color: transparent;
     border: none;
     color: #818181;
     position: absolute;
-    left: 2.6em;
-    top: 0.7em;
+    left: 3.6em;
+    top: 1.4em;
+    outline: none !important;
+}
+
+.collapseEscapeBtn:hover {
+    color:white;
+}
+
+.x-slash {
+    position: relative;
+    left: -49px;
+    transform: rotate(97deg);
+}
+
+.y-slash {
+    transform: rotate(7deg);
 }
 
 .navBtn {
     color: white !important;
     border-color: rgba(255,255,255,.4) !important;
+    outline: none !important;
+}
+
+.navBtn:hover {
+    color: white;
 }
 
 @media screen and (max-width: 1360px) {
@@ -324,13 +348,14 @@ hr {
     margin: 0.8rem 0.3rem;
 }
 
-.sliderBtn  , .owl-prev , .owl-next{
+.owl-prev , .owl-next{
     border: 0.5px solid rgba(0, 0, 0, 0.2) !important;
-    height: 2rem;
-    width: 2rem;
+    height: 1.8rem;
+    width: 1.8rem;
     border-radius: 50%;
     margin: 0 4rem;
     background-color: white !important;
+    box-shadow: 0 0 3px;
 }
 
 .active {
@@ -472,6 +497,7 @@ hr {
     border: 2.2px solid rgba(0, 0, 0, 0.2);
     font-weight: 700;
     opacity: 0.8;
+    outline: none !important;
 }
 
 .portfolioBtn:hover {
@@ -679,10 +705,6 @@ hr {
 }
 
 /* owl-slider classes */
-
-.sliderButton{
-    transform: rotate(90deg);
-}
 
 .owl-prev, .owl-next {
     outline: none !important;
