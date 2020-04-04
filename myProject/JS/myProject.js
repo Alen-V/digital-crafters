@@ -55,6 +55,26 @@ let nextBtn = document.getElementsByClassName(`owl-next`)[0]
 previousBtn.innerHTML = `&#x2BC6`
 nextBtn.innerHTML = `&#x2BC5`
 
+$(document).ready(function(){
+    //Check to see if the window is top if not then display button
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('#backTopBtn').fadeIn();
+        } else {
+            $('#backTopBtn').fadeOut();
+        }
+    });
+    //Click event to scroll to top
+    $('#backTopBtn').click(function(){
+        $('html, body').animate({scrollTop : 0},10);
+        return false;
+    });
+});
+
+
+// button color change
+
+
 
 // my-slider-function
 // let pages = document.getElementsByClassName(`pages`);
