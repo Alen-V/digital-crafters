@@ -193,20 +193,21 @@ a:hover {
 
 .sndSection {
     height: fit-content;
-    background: #ffffff;
-    background: rgba(255,255,255,1);
-background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
+    /* background: #ffffff; */
+    /* background: rgba(255,255,255,1); */
+/* background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
 background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(73%, rgba(255,255,255,1)), color-stop(74%, rgba(246,250,253,1)), color-stop(82%, rgba(249,250,254,1)), color-stop(100%, rgba(244,247,252,1)));
 background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
 background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
 background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
 background: linear-gradient(160deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(246,250,253,1) 60%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f7fc', GradientType=1 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f7fc', GradientType=1 ); */
+background: conic-gradient(from 0.19turn at 50% 68%, #f6fafd, 250deg, white, 360deg, white);
 }
 
 .between-sections {
     background: rgb(255,255,255);
-    background: linear-gradient(135deg, rgba(249,250,254,1) 0%, rgba(240,245,249,1) 100%);
+    background: linear-gradient(-183deg, #f6fafd 0%, rgba(240,245,249,1) 100%);
     padding: 8.81em 0 4.5em;
 }
 
@@ -307,7 +308,8 @@ hr {
 }
 
 .bottomLine {
-    background-image: linear-gradient( #00d4ff, #0d2c7a);
+    /* background-image: linear-gradient( #00d4ff, #0d2c7a); */
+    background: conic-gradient(from 0.69turn at 50% 71%, #0e4597,#0e6daf, 140deg, #0b75b3, 220deg, #0d2c7a);
     color: white;
     padding: 6.5em 0 0;
 }
@@ -405,7 +407,7 @@ hr {
 .frthSection {
     height: fit-content;
     padding: 8.81em;
-    background: #f0f5fa;
+    /* background: #f0f5fa;
     background: rgba(255,255,255,1);
     background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(73%, rgba(255,255,255,1)), color-stop(74%, rgba(246,250,253,1)), color-stop(82%, rgba(249,250,254,1)), color-stop(100%, rgba(244,247,252,1)));
@@ -414,6 +416,8 @@ hr {
     background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
     background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 74%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f7fc', GradientType=1 );
+} */
+    background: conic-gradient(from -65deg, white 45%, #f0f5fa 50%);
 }
 
 .marginBox {
@@ -428,7 +432,7 @@ hr {
     text-align: left;
     border-radius: 5px;
     background-color: white;
-    box-shadow: 0px 10px 20px 10px rgba(0,0,0,.2);
+    box-shadow: 0px 10px 20px 5px rgba(0,0,0,.2);
 }
 
 .leftAside {
@@ -606,8 +610,8 @@ hr {
 
 .round-button-back-top {
     position: fixed;
-    left: 90%;
-    bottom: 10%;
+    left: 95%;
+    bottom: 15%;
     border-radius: 50%;
     border: 1px solid rgba(255,255,255, 0.5);
     background-color: transparent;
@@ -677,7 +681,7 @@ hr {
     top: 8em;
 }
 
-.owl-prev:hover, .owl-next:hover {
+.owl-prev:hover, .owl-next:hover,  ul li:hover {
     transform: scale(1.2);
 }
 
