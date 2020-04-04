@@ -38,11 +38,11 @@ h2 {
     top: 0;
     left: 0;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: all 0.2s linear;
 }
 
 .transitionNav {
-    transition: all 2s linear;
+    transition: all 0.2s linear;
 }
 
 .hiddenNav ul li {
@@ -55,7 +55,7 @@ h2 {
     text-decoration: none;
     color: #818181;
     display: block;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .myList { 
@@ -89,7 +89,7 @@ h2 {
     font-size: 42px;
     background-color: transparent;
     border: none;
-    color: white;
+    color: #818181;
     position: absolute;
     left: 2.6em;
     top: 0.7em;
