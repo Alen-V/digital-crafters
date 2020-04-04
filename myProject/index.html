@@ -5,11 +5,12 @@
     <link rel="stylesheet" href="https://colorzilla.com/gradient-editor/#aebcbf+0,6e7774+63,0a0e0a+63,0a0e0a+63,0a0809+100">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../../node_modules/owl.carousel/dist/assets/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="./CSS/myProject.css">
-
+    <script src="https://kit.fontawesome.com/915f569e5c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="myDiv">
     <header class="navHead">
         <nav class="myNav">
             <div class="pos-f-t collapseBtn">
@@ -17,21 +18,21 @@
                       <div class="escapeCollapse">
                           <button id="collapseEscapeButton" class="collapseEscapeBtn">X</button>
                       </div>
-                    <ul>
+                      <ul class="">
                         <li>
                             <a href="#">About</a>
                         </li>
                         <li>
-                            <a href="#">Testimonials</a>
+                            <a href="#testimonySection">Testimonials</a>
                         </li>
                         <li>
-                            <a href="#">Service</a>
+                            <a href="#serviceSection">Service</a>
                         </li>
                         <li>
-                            <a href="#">Portfolio</a>
+                            <a href="#portfolioSection">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#contactSection">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -46,22 +47,19 @@
                     <a href="#">About</a>
                 </li>
                 <li>
-                    <a href="#">Testimonials</a>
+                    <a href="#testimonySection">Testimonials</a>
                 </li>
                 <li>
-                    <a href="#">Service</a>
+                    <a href="#serviceSection">Service</a>
                 </li>
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="#portfolioSection">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contactSection">Contact</a>
                 </li>
             </ul>
-            <div class="emptySpace"></div>
-            <form action="#" class="myBtn">
-                <input type="button" class="insideBtn" value="Request a quote">
-            </form>
+            <a href="#" class="myBtn">Request a quote</a>
         </nav>
         <img src="./Images/logo.png" class="logo" alt="Digital=Crafters-Logo">
 
@@ -71,15 +69,15 @@
         <p class="headSectionParagraph">We give you the stuff you</p>
         <p class="headSectionParagraph">need to make more money</p>
         <p class="controlSize">Bring us your remarakable business.We'll give you the design, content and tool you need to become unstoppable.2020 is the year you become rich.</p>
-        <button class="myButn">Claim your free consultation</button>
+    <a href="#" class="myButn">Claim your free consultation</a>
         
     </section>
 
     </header>
 
     
-    <section class="sndSection headPosition">
-        <h4 class="">How we can help you</h4>
+    <section id="headPosition" class="sndSection">
+        <h4 id="testimonySection">How we can help you</h4>
         <h2>You come up with the business,<br> we'll build the website</h2>
         <hr>
         <article class="sndSecFirstArticle">
@@ -91,12 +89,65 @@
         <article class="sndSecFirstArticle">
             <p id="sndP">Or worse, you've heard horror stories about programmers, web designers and writers who sprint out the starting blocks... and then disappear entirely. Luckily, you found us and no one can stop you now from working with us.</p>
         </article>
-        <form action="#">
-            <input class="myButn" type="button" value="Claim your free consulation">
-        </form>
         
+    <a href="#" class="myButn">Claim your free consultation</a>
+        
+       
+
+    </section>
+
+    <section class="between-sections">
         <article class="sndSecThirdArticle">
-            <div class="pages">
+
+            <!-- owl-carousel-slider -->
+            <div class="owl-carousel">
+                <div class="item pages"> 
+                    <p>We have worked with Digital Crafters for several years across a range of projects.<br> They have built the critical elements of our system and have always <br> delivered a strong return on investment. Moreover, they are a pleasure to work <br> with - always enthusiastic, professional and with a positive culture. I would, and <br> have, recommended them to others in need of flexible development capacity.</p>
+                <footer>
+                    <p><span>Todd Quinto</span> - CEO ar Endave Software</p>
+                </footer>    
+                </div>
+                <div class="item ">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit cumque alias id dolore quae eaque sint laudantium blanditiis atque perferendis soluta voluptatibus dicta voluptas beatae, quia qui illum. Doloribus, ratione.</p>
+                    <footer>
+                        <p><span>Quinto Todd</span> - CEO ar Endave Software</p>
+                    </footer>
+                </footer>    
+                </div>
+                <div class="item ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nostrum possimus laudantium, consequuntur esse excepturi reprehenderit? Excepturi exercitationem, sunt id fugiat, quaerat, quas quasi placeat voluptatem voluptates libero ut eius!</p>
+                    <footer>
+                        <p><span>Terry Todd</span> - CEO ar Endave Software</p>
+                    </footer>   
+                </div>
+                <div class="item ">
+                    <p>We have worked with Digital Crafters for several years across a range of projects.<br> They have built the critical elements of our system and have always <br> delivered a strong return on investment. Moreover, they are a pleasure to work <br> with - always enthusiastic, professional and with a positive culture. I would, and <br> have, recommended them to others in need of flexible development capacity.</p>
+                <footer>
+                    <p><span>Quinto Terry</span> - CEO ar Endave Software</p>
+                </footer>
+                </div>
+                <div class="item ">
+                    <p>We have worked with Digital Crafters for several years across a range of projects.<br> They have built the critical elements of our system and have always <br> delivered a strong return on investment. Moreover, they are a pleasure to work <br> with - always enthusiastic, professional and with a positive culture. I would, and <br> have, recommended them to others in need of flexible development capacity.</p>
+                <footer>
+                    <p><span>Todd Quinto</span> - CEO ar Endave Software</p>
+                </footer>    
+                </div>
+                <div class="item ">
+                    <p>We have worked with Digital Crafters for several years across a range of projects.<br> They have built the critical elements of our system and have always <br> delivered a strong return on investment. Moreover, they are a pleasure to work <br> with - always enthusiastic, professional and with a positive culture. I would, and <br> have, recommended them to others in need of flexible development capacity.</p>
+                <footer>
+                    <p><span>Terry Quinto</span> - CEO ar Endave Software</p>
+                </footer>   
+                </div>
+                <div class="item ">
+                    <p>We have worked with Digital Crafters for several years across a range of projects.<br> They have built the critical elements of our system and have always <br> delivered a strong return on investment. Moreover, they are a pleasure to work <br> with - always enthusiastic, professional and with a positive culture. I would, and <br> have, recommended them to others in need of flexible development capacity.</p>
+                <footer>
+                    <p><span>Quinto Todd</span> - CEO ar Endave Software</p>
+                </footer>   
+                </div>
+              </div>
+              <!-- end of owl-carousel-slider -->
+<!-- my-slider -->
+              <!-- <div class="pages">
                 <p>We have worked with Digital Crafters for several years across a range of projects.<br> They have built the critical elements of our system and have always <br> delivered a strong return on investment. Moreover, they are a pleasure to work <br> with - always enthusiastic, professional and with a positive culture. I would, and <br> have, recommended them to others in need of flexible development capacity.</p>
                 <footer>
                     <p><span>Todd Quinto</span> - CEO ar Endave Software</p>
@@ -131,25 +182,25 @@
                 <footer>
                     <p><span>Quinto Todd</span> - CEO ar Endave Software</p>
                 </footer>
-            </div>
-
-        </article>
-
-        <div class="arrowsAndDots">
-            <button class="sliderBtn firstBtn"></button>
+            </div> -->
+            <!-- <div class="arrowsAndDots">
+            <div class="sliderBtn firstBtn"></div>
             <div class="sliderDot active"></div>
             <div class="sliderDot"></div>
             <div class="sliderDot"></div>
             <div class="sliderDot"></div>
             <div class="sliderDot"></div>
             <div class="sliderDot"></div>
-            <button class="sliderBtn secondBtn"></button>
-        </div>
+            <div class="sliderBtn secondBtn"></div>
+        </div> -->
+            <!-- end of my-slider -->
+        </article>
 
+        
     </section>
 
     <section class="thrdSection headPosition">
-        <h2 class="">Our Services</h2>
+        <h2 id="serviceSection">Our Services</h2>
         <hr>
         <p class="aboveBox">We'll do everything we can to grow your revenue. Our motivation <br> is to drive your business further than you can imagine.</p>
 
@@ -192,7 +243,7 @@
     </section>
 
     <article class="frthSection headPosition">
-        <h2 class="">Our Portfolio</h2>
+        <h2 id="portfolioSection">Our Portfolio</h2>
         <hr>
         <p class="aboveBox">We've done lost of stuff in the past and we made millions in revenue for hundreds of happy customers.</p>
         <article class="thrdSecContainer frthSectionBox">
@@ -202,40 +253,43 @@
                 <h2>LandingZap App</h2>
                 <p>There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injected humourm or randomised words which don't look even slightly believable.</p>
                 <footer>
-                    <form action="#">
-                        <input type="button" class="portfolioBtn" value="UX">
-                        <input type="button" class="portfolioBtn" value="UI">
-                        <input type="button" class="portfolioBtn" value="MOBILE APP">
-                    </form>
+                    <button class="portfolioBtn" value="UX">UX</button>
+                    <button class="portfolioBtn" value="UI">UI</button>
+                    <button class="portfolioBtn" value="MOBILE APP">MOBILE APP</button>
                 </footer>
             </aside>
         </article>
     </article>
     <article class="bottomLine headPosition">
-        <h2 class="">Contact us today to learn how we increase  your revenue.</h2>
+        <h2 id="contactSection">Contact us today to learn how we increase  your revenue.</h2>
         <hr>
         <article class="bottomBox">
             <div class="bottomInput">
+                <i class="fas fa-user margin-right"></i>
                 <input type="text" placeholder="Your Name" class="input">
             </div>
             <div class="bottomInput">
+                <i class="fas fa-envelope margin-right"></i>
                 <input type="text" placeholder="Email" class="input">
             </div>
             <div class="bottomInput lastInput">
-                <input type="textarea" placeholder="How we can help you?" class="input">
+                <i class="fas fa-question-circle margin-right"></i>
+                <input type="text" placeholder="How we can help you?" class="input">
             </div>
                 
         </article>
-        <input class="myButn bottomBtn" type="button" value="Claim your free consulation">
+    <a href="#" class="myButn">Claim your free consultation</a>
+    <div class="logoContainer">
+        <i class="fab fa-twitter margin-logo"></i>
+        <i class="fab fa-facebook-square margin-logo"></i>
+        <i class="fab fa-instagram margin-logo"></i>
+        <i class="fab fa-linkedin margin-logo"></i>
+        <!-- make new class for the font-size and margin -->
+    </div>
         <footer class="bottomFooter">
             <div class="footerBox">
                 <img src="./Images/logo.png" alt="Digital=Crafters-Logo">
-            <div class="logoContainer">
-                <!-- <img src="./Images/twitterLogo.jpg" alt="">
-                <img src="./Images/facebookLogo.jpg" alt="">
-                <img src="./Images/instragramLogo.jpg" alt="">
-                <img src="./Images/linkedinLogo.jpg" alt=""> -->
-            </div>
+            
             <ul>
                 <li>
                     <a href="#">Terms of Service</a>
@@ -247,8 +301,8 @@
             </div>
         </footer>
     </article>
-    
-    </div>
+    <script src="../../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../../node_modules//owl.carousel/dist/owl.carousel.min.js"></script>
     <script src="./JS/myProject.js"></script>
 </body>
 </html>
