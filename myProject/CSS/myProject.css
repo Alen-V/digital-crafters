@@ -706,7 +706,7 @@ hr {
         min-height: 1270px;
     }
     .round-button-back-top {
-        top: 7%;
+        bottom: 7%;
     }
 }
 
