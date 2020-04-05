@@ -47,7 +47,7 @@ h2 {
 
 .hiddenNav ul li {
     list-style-type: none;
-    margin: 9em;
+    margin: 10em;
 }
 
 .hiddenNav ul li a {
@@ -132,13 +132,7 @@ h2 {
         display: none;
     }
     .hiddenNav {
-        height: 1138px;
-    }
-}
-
-@media screen and (max-width: 1160px) {
-    .hiddenNav {
-        height: 1172px;
+        height: 1210px;
     }
 }
 
@@ -706,7 +700,7 @@ hr {
         margin-bottom: 0;
     }
     .hiddenNav {
-        height: 1201px;
+        height: 1270px;
     }
     .navHead {
         min-height: 1270px;
