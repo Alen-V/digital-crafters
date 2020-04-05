@@ -47,7 +47,7 @@ h2 {
 
 .hiddenNav ul li {
     list-style-type: none;
-    margin: 3em;
+    margin: 9em;
 }
 
 .hiddenNav ul li a {
@@ -528,6 +528,7 @@ hr {
     font-size: 17px;
     color: white;
     outline: none;
+    width: 100%;
 }
 
 #complain {
@@ -563,6 +564,8 @@ hr {
     border-radius: 5px;
     background-color: transparent;
     border: 2px solid rgba(255,255,255, 0.3);
+    display: flex;
+    align-items: baseline;
 }
 
 .lastInput {
