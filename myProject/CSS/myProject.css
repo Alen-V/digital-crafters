@@ -386,9 +386,9 @@ hr {
     min-height: 332px;
     margin: 0 1.18em;
     text-align: left;
-    padding-left: 2.5em !important;
     min-width: 25%;
     border-radius: 5px;
+    padding: 0 1.5em 1em 2.5em !important;
 }
 
 .boxBorder .circle {
