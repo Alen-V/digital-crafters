@@ -15,11 +15,14 @@ body {
     font-weight: 700;
 }
 
+a {
+    transition: all 0.3s ease-in;
+}
+
 ul li a {
     text-decoration: none;
     color: white;
     font-size: 14px;
-
 }
 
 p, .myButn, .thrdSecContainer h2, .frthSection aside h2 {
@@ -139,7 +142,6 @@ h2 {
 a:hover {
     color: white;
     text-decoration: none;
-    transition: all 0.2s;
     transform: scale(1.1);
 }
 
@@ -212,16 +214,7 @@ a:hover {
 
 .sndSection {
     height: fit-content;
-    /* background: #ffffff; */
-    /* background: rgba(255,255,255,1); */
-/* background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
-background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(73%, rgba(255,255,255,1)), color-stop(74%, rgba(246,250,253,1)), color-stop(82%, rgba(249,250,254,1)), color-stop(100%, rgba(244,247,252,1)));
-background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
-background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
-background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
-background: linear-gradient(160deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(246,250,253,1) 60%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f7fc', GradientType=1 ); */
-background: conic-gradient(from 0.19turn at 50% 68%, #f6fafd, 250deg, white, 360deg, white);
+    background: conic-gradient(from 0.19turn at 50% 68%, #f6fafd, 250deg, white, 360deg, white);
 }
 
 .between-sections {
@@ -427,16 +420,6 @@ hr {
 .frthSection {
     height: fit-content;
     padding: 8.81em;
-    /* background: #f0f5fa;
-    background: rgba(255,255,255,1);
-    background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(73%, rgba(255,255,255,1)), color-stop(74%, rgba(246,250,253,1)), color-stop(82%, rgba(249,250,254,1)), color-stop(100%, rgba(244,247,252,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
-    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 74%, rgba(246,250,253,1) 74%, rgba(249,250,254,1) 82%, rgba(244,247,252,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f7fc', GradientType=1 );
-} */
     background: conic-gradient(from -65deg, white 45%, #f0f5fa 50%);
 }
 
@@ -493,10 +476,10 @@ hr {
     font-weight: 700;
     opacity: 0.8;
     outline: none !important;
+    transition: all 0.2s ease-in;
 }
 
 .portfolioBtn:hover {
-    transition: all 0.2s;
     transform: scale(1.1);
 }
 
@@ -567,7 +550,6 @@ hr {
     display: flex;
     align-items: baseline;
 } 
-/* need to make code for breaking the line on the last input */
 
 .lastInput .input {
     width: 100%;
@@ -613,6 +595,7 @@ hr {
 
 .margin-logo {
     margin: 0.3em;
+    transition: all 0.3s ease-in;
 }
 
 .margin-logo:hover {
@@ -655,7 +638,7 @@ hr {
     bottom: 15%;
     border-radius: 50%;
     border: 1px solid rgba(255,255,255, 0.5);
-    background-color: transparent;
+    background-color: white;
     color: rgb(0, 75, 135);
     font-size: 2rem;
     height: 3rem;
@@ -664,7 +647,7 @@ hr {
     display: none;
 }
 .round-button-back-top:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
     color: #41BFE7;
 }
 .round-button-back-top.scrolled {
@@ -714,6 +697,7 @@ hr {
 
 .owl-prev, .owl-next {
     outline: none !important;
+    transition: all 0.2s ease-in;
 }
 
 .owl-nav {
@@ -730,4 +714,12 @@ hr {
     top: 6em;
     max-width: 120px;
     margin: auto;
+}
+
+.owl-dot {
+    transition: all 0.2s ease-in;
+}
+
+.owl-dot:hover {
+    transform: scale(1.3);
 }
