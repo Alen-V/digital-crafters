@@ -23,6 +23,7 @@ ul li a {
     text-decoration: none;
     color: white;
     font-size: 14px;
+    transition: all 0.2s ease-in;
 }
 
 p, .myButn, .thrdSecContainer h2, .frthSection aside h2 {
