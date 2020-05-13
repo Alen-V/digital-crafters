@@ -45,8 +45,8 @@ h2 {
     transition: all 0.2s linear;
 }
 
-.transitionNav {
-    transition: all 0.2s linear;
+.transitionNavm, img {
+    transition: all 0.2s ease-in;
 }
 
 .hiddenNav ul li {
