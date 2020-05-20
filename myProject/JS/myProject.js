@@ -45,10 +45,13 @@ $('.owl-carousel').owlCarousel({
 })
 
 
+    
 $(`.owl-carousel .owl-dot`).owlCarousel({
     autoHeight:true,
     autoWidth: true    
 })
+
+
 
 let previousBtn = document.getElementsByClassName(`owl-prev`)[0]
 let nextBtn = document.getElementsByClassName(`owl-next`)[0]
