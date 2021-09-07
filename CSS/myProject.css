@@ -34,6 +34,10 @@ a {
     transition: all 0.3s ease-in;
 }
 
+.myList li {
+    transition: all 0.2s ease-in;
+}
+
 ul li a {
     text-decoration: none;
     color: white;
@@ -597,6 +601,7 @@ hr {
     margin: 1em;
     font-size: 14px;
     font-weight: 700;
+    transition: all ease .225s;
 }
 
 .logoContainer {
